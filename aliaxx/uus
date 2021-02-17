@@ -1,0 +1,11 @@
+
+
+            Crear Usuario:::::[ NET USER (nuevo usuario) (nueva password) /ADD ]
+
+             Borrar Usuario:::[ NET USER (usuario) /DELETE ]
+ ------------------------------------------------------------------------------------
+
+    Cambiar/Borrar Password de Usuario::
+                              [  NET USER (usuario)  *(asterisco:quitar/cambiar)  ]
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
