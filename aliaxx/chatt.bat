@@ -12,5 +12,5 @@ ipconfig|findstr "IPv4"
    echo.
    echo.                                Esperando Conexiones::::
      echo.  
-nc -n -v -l -p 6661
+ncat -n -v -l -p 6661
 echo.

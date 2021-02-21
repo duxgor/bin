@@ -3,7 +3,7 @@ echo.
    echo.                     LocalHost:::::
 ipconfig|findstr "IPv4"
 
-   echo.   [ nc -vn (ip_a_conectar) PUERTO]  
+   echo.   [ ncat -vn (ip_a_conectar) PUERTO]  
    echo.
 TYPE C:\bin\aliaxx\bancatt
   
