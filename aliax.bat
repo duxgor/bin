@@ -58,7 +58,7 @@
 
   DOSKEY pxx=shutdown /s /t 16 /c "Puedes CANCELAR con:   xxp"
 
-  DOSKEY prr=shutdown /r /t 1   
+  DOSKEY reboot=shutdown /r /t 1   
 
   DOSKEY ll=DIR 
 
