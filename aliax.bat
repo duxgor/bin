@@ -25,7 +25,7 @@
 
         DOSKEY bcdl=@echo off$Tcolor 3 $TCLS $T TYPE C:\bin\aliaxx\band-logo $Tbandcamp-dl $* $T color $T@echo on
 
-
+ DOSKEY up.ytdl=@echo off$Tcolor 3 $T POWERSHELL $T choco upgrade youtube-dl $T color $T@echo on
 
 
 
