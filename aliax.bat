@@ -25,7 +25,10 @@
 
         DOSKEY bcdl=@echo off$Tcolor 3 $TCLS $T TYPE C:\bin\aliaxx\band-logo $Tbandcamp-dl $* $T color $T@echo on
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8a4b7fd682eb83d953a3614ac447ef4c5b9e212b
  DOSKEY up.ytdl=@echo off$Tcolor 3 $T POWERSHELL $T choco upgrade youtube-dl $T color $T@echo on
 
 
@@ -59,7 +62,7 @@
 
   DOSKEY pxx=shutdown /s /t 16 /c "Puedes CANCELAR con:   xxp"
 
-  DOSKEY prr=shutdown /r /t 1   
+  DOSKEY reboot=shutdown /r /t 1   
 
   DOSKEY ll=DIR 
 
