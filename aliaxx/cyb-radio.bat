@@ -100,7 +100,7 @@ CLS
 TYPE C:\bin\aliaxx\ban_synth2
 echo.     Sovietwave Radio 24/7 Live Stream 
 echo.
-mpv --no-video https://www.youtube.com/watch?v=u5Wzj6j2krY
+mpv --no-video https://www.youtube.com/watch?v=vDoJfwya_Kw
 color 
 CLS
 goto ini

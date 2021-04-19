@@ -7,7 +7,7 @@
       
       DOSKEY mor="C:\bin\aliaxx\morr.bat" $T CLS
       
-      DOSKEY cybermux="C:\bin\aliaxx\synthwave.bat" $T CLS
+      DOSKEY synth="C:\bin\aliaxx\synthwave.bat" $T CLS
 
       DOSKEY mppv=@echo off $Tcolor B $T"C:\bin\aliaxx\mmppvv.bat" $1 $TDIR /D $Techo. ============================================================================================ $Tmpv --shuffle *.mp3 $1 $Tcolor $T@echo on
 
@@ -26,6 +26,7 @@
         DOSKEY bcdl=@echo off$Tcolor 3 $TCLS $T TYPE C:\bin\aliaxx\band-logo $Tbandcamp-dl $* $T color $T@echo on
 
 
+ DOSKEY up.ytdl=@echo off$Tcolor 3 $T POWERSHELL $T choco upgrade youtube-dl $T color $T@echo on
 
 
 
@@ -118,6 +119,7 @@
 
                                                                                GOTO kll
  ##############################   Comandos/herramientas ######################
+ ### compmgmtlauncher ##0runas /user:usuario t00l 
                                                                                :kll
                          
                  DOSKEY clima=@echo off $Tcurl wttr.in/Morelia,Mexico?0 $T "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" http://sirocco.accuweather.com/sat_mosaic_640x480_public/IR/isamex.gif $T@echo on
@@ -145,9 +147,9 @@
            
                 DOSKEY nmapx=@echo off$T"C:\bin\aliaxx\nnpp.bat" $1$Tnmap -Pn -F -T4 -sV -A -v $1 $* $T@echo on
                        
-                       DOSKEY mandar=@echo off $techo. $Techo."     Eviando Archivo...  [ nc -lvp PUERTO < Ruta_ARCHIVO ] "$Tnc -lvp $* $T@echo on
+                       DOSKEY upp=@echo off $techo. $Techo."     Eviando Archivo...  [ nc -lvp PUERTO < Ruta_ARCHIVO ] "$Tnc -lvp $* $T@echo on
                        
-                       DOSKEY captturar=@echo off $techo. $Techo."     Tomando el Archivo...  [ nc IP-Servidor PUERTO > Ruta_ARCHIVO ]" $Tnc  $* $T@echo on
+                       DOSKEY down=@echo off $techo. $Techo."     Tomando el Archivo...  [ nc IP-Servidor PUERTO > Ruta_ARCHIVO ]" $Tnc  $* $T@echo on
                      
                        DOSKEY bdoor="C:\bin\aliaxx\xxcat.bat" $Tnc -vn $*
 
